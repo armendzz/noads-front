@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     search(){
-      axios.post('http://localhost:3000/search', {
+      axios.post('http://149.202.20.88:3000/search', {
         searchterm: this.searchterm
       }).then(response => {
       this.results = response.data

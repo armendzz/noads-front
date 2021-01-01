@@ -66,7 +66,7 @@ export default {
   methods:{
       getVideo(){
            axios
-      .post("http://localhost:3000/single", {
+      .post("http://149.202.20.88:3000/single", {
         vidid: this.$route.params.slug,
       })
       .then((response) => {
